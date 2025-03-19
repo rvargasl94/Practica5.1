@@ -1,6 +1,11 @@
+# calculadora.py
 class Calculadora:
     def multiplicar(self, a, b):
         return a * b
+
+    # Agrega una nueva función para sumar
+    def sumar(self, a, b):
+        return a + b
 
 if __name__ == "__main__":
     import sys
