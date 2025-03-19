@@ -21,7 +21,7 @@ pipeline {
             echo '¡La canalización se completó exitosamente!'
         }
         failure {
-            echo 'Laaa canalización falló. Revisa los logs para más detalles.'
+            echo 'La canalización falló. Revisa los logs para más detalles.'
         }
     }
 }
