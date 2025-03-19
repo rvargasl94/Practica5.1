@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/rvargasl94/Practica5.1.git'
+                // Especificamos la rama correcta (main)
+                git branch: 'main', url: 'https://github.com/rvargasl94/Practica5.1.git'
             }
         }
 
