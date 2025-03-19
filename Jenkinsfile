@@ -11,7 +11,7 @@ pipeline {
 
         stage('Pruebas Unitarias') {
             steps {
-                sh 'python -m unittest test_calculator.py'
+                sh 'python3 -m unittest test_calculator.py'
             }
         }
     }
